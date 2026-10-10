@@ -1,0 +1,117 @@
+const initialCoursesData = [
+  {
+    id: "curso-1",
+    name: "Rotina Completa de Skincare",
+    institution: "Cursa",
+    url: "https://cursa.app/pt/curso-gratuito/rotina-completa-de-skincare-limpeza-hidratacao-e-protecao-solar-fbgb",
+    category: "Skincare",
+    startDate: "2026-10-12",
+    endDate: "2026-10-18",
+    status: "not_started",
+    progress: 0,
+    description: "Aprenda a rotina completa de skincare, desde a limpeza até a proteção solar.",
+    notes: "",
+    sessions: []
+  },
+  {
+    id: "curso-2",
+    name: "Limpeza de Pele Facial",
+    institution: "Cursa",
+    url: "https://cursa.app/pt/curso-gratuito/limpeza-de-pele-facial-bhib",
+    category: "Estética Facial",
+    startDate: "2026-10-19",
+    endDate: "2026-10-25",
+    status: "not_started",
+    progress: 0,
+    description: "Técnicas essenciais para uma limpeza de pele facial eficaz.",
+    notes: "",
+    sessions: []
+  },
+  {
+    id: "curso-3",
+    name: "Limpeza de Pele Completo",
+    institution: "Cursa",
+    url: "https://cursa.app/pt/curso-gratuito/limpeza-de-pele-completo-dbib",
+    category: "Estética Facial",
+    startDate: "2026-10-26",
+    endDate: "2026-11-08",
+    status: "not_started",
+    progress: 0,
+    description: "Curso completo sobre limpeza de pele profunda.",
+    notes: "",
+    sessions: []
+  },
+  {
+    id: "curso-4",
+    name: "Dermatologia Básica",
+    institution: "Adequa Cursos",
+    url: "https://adequacursos.com.br/curso/saude-e-medicina/dermatologia-basica",
+    category: "Dermatologia",
+    startDate: "2026-11-09",
+    endDate: "2026-11-22",
+    status: "not_started",
+    progress: 0,
+    description: "Fundamentos da dermatologia, estrutura da pele e cuidados básicos.",
+    notes: "",
+    sessions: []
+  },
+  {
+    id: "curso-5",
+    name: "Doenças Dermatológicas",
+    institution: "Adequa Cursos",
+    url: "https://adequacursos.com.br/curso/saude-e-medicina/doencas-dermatologicas",
+    category: "Dermatologia",
+    startDate: "2026-11-23",
+    endDate: "2026-12-06",
+    status: "not_started",
+    progress: 0,
+    description: "Estudo das principais doenças dermatológicas e suas características.",
+    notes: "",
+    sessions: []
+  },
+  {
+    id: "curso-6",
+    name: "Cosmetologia",
+    institution: "Anglo Cursos",
+    url: "https://www.anglocursos.com.br/cursos/de/estetica-e-beleza/cosmetologia/gratis",
+    category: "Cosmetologia",
+    startDate: "2026-12-07",
+    endDate: "2026-12-20",
+    status: "not_started",
+    progress: 0,
+    description: "Introdução à cosmetologia, princípios ativos e aplicações.",
+    notes: "",
+    sessions: []
+  },
+  {
+    id: "curso-7",
+    name: "Formulações Cosméticas",
+    institution: "Pensar Cursos",
+    url: "https://www.pensarcursos.com.br/curso/formulacao-cosmeticas",
+    category: "Formulações",
+    startDate: "2026-12-21",
+    endDate: "2027-01-10",
+    status: "not_started",
+    progress: 0,
+    description: "Como criar e entender formulações cosméticas do zero.",
+    notes: "",
+    sessions: []
+  },
+  {
+    id: "curso-8",
+    name: "Perfumaria e Cosméticos Artesanais",
+    institution: "WR Educacional",
+    url: "https://www.wreducacional.com.br/curso-gratis-de-perfumaria-e-cosmeticos-artesanais",
+    category: "Perfumaria e Cosméticos",
+    startDate: "2027-01-11",
+    endDate: "2027-01-24",
+    status: "not_started",
+    progress: 0,
+    description: "Produção artesanal de perfumes e cosméticos naturais.",
+    notes: "",
+    sessions: []
+  }
+];
+
+// Export as a global variable so it can be loaded via a simple script tag without requiring a local server
+window.INITIAL_COURSES = initialCoursesData;
